@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메모리 게임</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 메모리 게임</h1>
+        <div class="game-info">
+            <div class="score">점수: <span id="score">0</span></div>
+            <div class="timer">시간: <span id="timer">3</span>초</div>
+            <div class="moves">시도: <span id="moves">0</span></div>
+        </div>
+        <div class="game-board" id="gameBoard">
+            <!-- 카드들이 여기에 동적으로 생성됩니다 -->
+        </div>
+        <button class="restart-btn" onclick="restartGame()">다시 시작</button>
+        <div class="game-status" id="gameStatus"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
