@@ -13,7 +13,7 @@ Amazon Q와 함께 개발한 브라우저 기반 메모리 게임입니다.
 
 1. 저장소를 클론합니다:
 ```bash
-git clone https://github.com/[your-username]/memory-game-with-Amazon-Q.git
+git clone https://github.com/choons/memory-game-with-Amazon-Q.git
 ```
 
 2. 폴더로 이동합니다:
@@ -62,4 +62,4 @@ npx serve .
 
 ---
 
-Amazon Q의 도움으로 개발되었습니다 🤖 
+Amazon Q의 도움으로 개발되었습니다 🤖
